@@ -1,0 +1,274 @@
+Log file created at: 2026/11/01 13:05:11
+Running on machine: MacBook-Pro-SINAKOV.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1101 13:05:11.948894 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCServiceFeedback
+I1101 13:05:11.960530 118132544 PluginLoaderImpl.h:95] SCServiceFeedback loading succeed, resources registration started.
+I1101 13:05:11.960665 118132544 PluginLoaderImpl.h:122] SCServiceFeedback: resources registration done.
+I1101 13:05:11.960731 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCServiceEmailCollector
+I1101 13:05:11.966830 118132544 PluginLoaderImpl.h:95] SCServiceEmailCollector loading succeed, resources registration started.
+I1101 13:05:11.967024 118132544 PluginLoaderImpl.h:122] SCServiceEmailCollector: resources registration done.
+I1101 13:05:11.967446 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCServiceTutorial
+I1101 13:05:11.975781 118132544 PluginLoaderImpl.h:95] SCServiceTutorial loading succeed, resources registration started.
+I1101 13:05:11.975955 118132544 PluginLoaderImpl.h:122] SCServiceTutorial: resources registration done.
+I1101 13:05:11.976006 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCServiceIPCController
+I1101 13:05:11.984068 118132544 PluginLoaderImpl.h:95] SCServiceIPCController loading succeed, resources registration started.
+I1101 13:05:11.984252 118132544 PluginLoaderImpl.h:122] SCServiceIPCController: resources registration done.
+I1101 13:05:11.984299 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCServiceACEClient
+I1101 13:05:12.070819 118132544 PluginLoaderImpl.h:95] SCServiceACEClient loading succeed, resources registration started.
+I1101 13:05:12.070999 118132544 PluginLoaderImpl.h:122] SCServiceACEClient: resources registration done.
+I1101 13:05:12.071269 118132544 PluginLoaderImpl.h:171] Plugins list to load: SCExtensionSelfTest
+I1101 13:05:12.071435 118132544 PluginLoaderImpl.h:50] ErrorDescription: Cannot load module '@executable_path/../Frameworks/libSCExtensionSelfTest.dylib', additional info: dlopen(@executable_path/../Frameworks/libSCExtensionSelfTest.dylib, 0x0002): tried: '/Applications/Movavika Screen Recorder.app/Contents/Frameworks/libSCExtensionSelfTest.dylib' (no such file)
+I1101 13:05:12.071466 118132544 PluginLoaderImpl.h:95] SCExtensionSelfTest loading failed 
+I1101 13:05:12.073334 118132544 Application.cpp:135] Application started from /Applications/Movavika Screen Recorder.app/Contents/MacOS/ScreenRecorder
+I1101 13:05:12.073400 118132544 Application.cpp:136] Product Version: 24.8.2
+I1101 13:05:12.073432 118132544 Application.cpp:138] FFmpeg version: ffmpeg/7.1.1-3@movavi/stable
+I1101 13:05:12.073462 118132544 Application.cpp:138] Build commit: 6ecbf1e
+I1101 13:05:12.073489 118132544 Application.cpp:140] 
+======== Hardware information ========
+OSBits                    : 64
+OSVersion                 : 14.6.1
+ProcessorArchitect        : arm64
+ProcessorName             : Apple M1 Pro
+ProcessorCount            : 10
+ProcessorMHz              : 0
+MemoryPhysical            : 17179869184
+MonitorsCount             : 1
+GPUModel                  : 
+MainMonitor Scale         : 1728x1117
+IsRunnedOnSSD             : true
+IsCurrentSessionRemotable : false
+IsVirtualMachine          : falseI1101 13:05:12.211310 118132544 ConfigController.cpp:473] Features was created from web config with name: applescreenrecorder_24-8-*_497.
+I1101 13:05:12.212302 118132544 LaunchTypeProcessor.cpp:115] LaunchTypeProcessor: product launch type = Updated, application launch type = Updated
+I1101 13:05:12.213441 118132544 AbstractActivationStorage.cpp:122] Access mode of ActivationStorage AccessType::ReadWrite
+I1101 13:05:12.213905 118132544 AbstractActivationStorage.cpp:122] Access mode of ActivationStorage AccessType::ReadWrite
+I1101 13:05:12.214054 118132544 ActivationStorage_mac.cpp:180] Activation performed with subscription key = 0
+I1101 13:05:12.214147 118132544 LicenseController.cpp:313] Initialize Lifetime activation mode
+I1101 13:05:12.214205 118132544 IoCMovaviApp.cpp:513] Registration: DistributedThroughStore=0, trial=0
+I1101 13:05:12.214241 118132544 Application.cpp:184] Activation status: LifetimeActivated
+I1101 13:05:12.214355 118132544 main.cpp:298] Application started: module=screencapture, product=screenrecorder/Запись экрана, version=24.8.2
+I1101 13:05:12.230000 118132544 IoCMovaviApp.cpp:431] Current theme=DarkSC, current locale=ru_RU
+I1101 13:05:12.281316 118132544 ExtendedLoggingHelper.cpp:19] Current log level: 0
+I1101 13:05:12.284065 1853517824 ConfigRequester.cpp:117] Request web config from url: https://config.movavika.ru/api/v1/?asrc=&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&webuid=73u2tp&build_name=UNUSED&app=applescreenrecorder&module=screencapture&app_ver=24-8-2&lang=ru_ru&partner=&istrial=0&utm_nooverride=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&bundle_name=supervideomac&brand=movavika&market=global&launchtype=Updated&activation_status=LIFETIME&activation_edition=LIFETIME&gift_id=0
+I1101 13:05:12.294298 1858105344 PeerWorker.cpp:227] IPC Send: from movavika_screenrecorder_24.8.2_screencapture to movavika_screenrecorder_24.8.2_screencapture type = Hello
+I1101 13:05:12.294631 118132544 main.cpp:647] Initializing the core...
+I1101 13:05:12.295498 1859252224 PeerWorker.cpp:38] Can't find invoker for function hello_successfull version 0.0.0.0, trying default
+W1101 13:05:12.295575 1859252224 PeerWorker.cpp:53] Default invoker not set
+I1101 13:05:12.296887 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnSendFileStorageSize {99;} ver = 1.0.0.0
+I1101 13:05:12.298344 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnLocaleChanged {ru_RU;} ver = 1.0.0.0
+I1101 13:05:12.298506 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnSetModuleBundleInfo {supervideomac;} ver = 1.0.0.0
+I1101 13:05:12.306368 1859252224 CoreManager.cpp:755] Core version: 72.1 (cd5762298)
+I1101 13:05:12.306931 1859252224 PluginLoaderImpl.h:171] Plugins list to load: Effects, EffectsFF, EffectsOgl, EffectsMetal, VideoInterop, EffectsMultiImpls
+I1101 13:05:12.312635 1859252224 PluginLoaderImpl.h:95] Effects loading succeed, resources registration started.
+I1101 13:05:12.312764 1859252224 PluginLoaderImpl.h:122] Effects: resources registration done.
+I1101 13:05:12.313002 1859252224 PluginLoaderImpl.h:95] EffectsFF loading succeed, resources registration started.
+I1101 13:05:12.313071 1859252224 PluginLoaderImpl.h:122] EffectsFF: resources registration done.
+I1101 13:05:12.319758 1859252224 PluginLoaderImpl.h:95] EffectsOgl loading succeed, resources registration started.
+I1101 13:05:12.319918 1859252224 PluginLoaderImpl.h:122] EffectsOgl: resources registration done.
+I1101 13:05:12.328987 1859252224 PluginLoaderImpl.h:95] EffectsMetal loading succeed, resources registration started.
+I1101 13:05:12.329121 1859252224 PluginLoaderImpl.h:122] EffectsMetal: resources registration done.
+I1101 13:05:12.334030 1859252224 PluginLoaderImpl.h:95] VideoInterop loading succeed, resources registration started.
+I1101 13:05:12.334136 1859252224 PluginLoaderImpl.h:122] VideoInterop: resources registration done.
+I1101 13:05:12.341473 1859252224 PluginLoaderImpl.h:95] EffectsMultiImpls loading succeed, resources registration started.
+I1101 13:05:12.341627 1859252224 PluginLoaderImpl.h:122] EffectsMultiImpls: resources registration done.
+I1101 13:05:12.341876 1859252224 PluginLoaderImpl.h:171] Plugins list to load: FiltersFF
+I1101 13:05:12.341984 1859252224 PluginLoaderImpl.h:95] FiltersFF loading succeed, resources registration started.
+I1101 13:05:12.342017 1859252224 PluginLoaderImpl.h:122] FiltersFF: resources registration done.
+I1101 13:05:12.342125 1859252224 PluginLoaderImpl.h:171] Plugins list to load: Filters, FiltersFF, FiltersOgl, FiltersSpeex
+I1101 13:05:12.342200 1859252224 PluginLoaderImpl.h:95] Filters loading succeed, resources registration started.
+I1101 13:05:12.342285 1859252224 PluginLoaderImpl.h:122] Filters: resources registration done.
+I1101 13:05:12.342409 1859252224 PluginLoaderImpl.h:95] FiltersFF loading succeed, resources registration started.
+I1101 13:05:12.342465 1859252224 PluginLoaderImpl.h:122] FiltersFF: resources registration done.
+I1101 13:05:12.347635 1859252224 PluginLoaderImpl.h:95] FiltersOgl loading succeed, resources registration started.
+I1101 13:05:12.347724 1859252224 PluginLoaderImpl.h:122] FiltersOgl: resources registration done.
+I1101 13:05:12.352351 1859252224 PluginLoaderImpl.h:95] FiltersSpeex loading succeed, resources registration started.
+I1101 13:05:12.352463 1859252224 PluginLoaderImpl.h:122] FiltersSpeex: resources registration done.
+I1101 13:05:12.352630 1859252224 PluginLoader.cpp:108] [CORE_CODEC_FACTORY] Plugin DecoderRAW disabled
+I1101 13:05:12.352694 1859252224 PluginLoaderImpl.h:171] Plugins list to load: DecodersFF, EncodersFF, EncoderLossless, DecoderAT, DecoderVT, EncoderAT, EncoderVT, DecoderImageIO
+I1101 13:05:12.363922 1853517824 ConfigRequester.cpp:121] 
+Error code: 
+Error message: 
+Reason: OK
+Status code: OK
+Status line: HTTP/1.1 200 OK
+Data: 
+I1101 13:05:12.364114 1853517824 ConfigRequester.cpp:460] Web config downloaded success
+I1101 13:05:12.364221 1853517824 ConfigRequester.cpp:463] Parsing web config: true
+I1101 13:05:12.364297 1853517824 ConfigStorage.cpp:67] ConfigStorage::writeDataToFile(): config name applescreenrecorder_24-8-*_497
+I1101 13:05:12.364565 1859252224 PluginLoaderImpl.h:95] DecodersFF loading succeed, resources registration started.
+I1101 13:05:12.364980 1853517824 ConfigRequester.cpp:477] Success loading web config with name: applescreenrecorder_24-8-*_497, updated: false
+I1101 13:05:12.365290 1859252224 PluginLoaderImpl.h:122] DecodersFF: resources registration done.
+I1101 13:05:12.370555 1859252224 PluginLoaderImpl.h:95] EncodersFF loading succeed, resources registration started.
+I1101 13:05:12.371181 1859252224 PluginLoaderImpl.h:122] EncodersFF: resources registration done.
+I1101 13:05:12.376300 1859252224 PluginLoaderImpl.h:95] EncoderLossless loading succeed, resources registration started.
+I1101 13:05:12.376391 1859252224 PluginLoaderImpl.h:122] EncoderLossless: resources registration done.
+I1101 13:05:12.388624 1859252224 PluginLoaderImpl.h:95] DecoderAT loading succeed, resources registration started.
+I1101 13:05:12.392649 1859252224 PluginLoaderImpl.h:122] DecoderAT: resources registration done.
+I1101 13:05:12.401327 1859252224 PluginLoaderImpl.h:95] DecoderVT loading succeed, resources registration started.
+I1101 13:05:12.420217 1859252224 Export.cpp:101] Video Toolbox decoding support status:
+	Hardware: H264, HEVC, ProRes, VP9
+	Software: H264, HEVC, MPEG1, MPEG2, MPEG4, ProRes
+I1101 13:05:12.420316 1859252224 PluginLoaderImpl.h:122] DecoderVT: resources registration done.
+I1101 13:05:12.425423 1859252224 PluginLoaderImpl.h:95] EncoderAT loading succeed, resources registration started.
+I1101 13:05:12.425546 1859252224 PluginLoaderImpl.h:122] EncoderAT: resources registration done.
+I1101 13:05:12.430470 1859252224 PluginLoaderImpl.h:95] EncoderVT loading succeed, resources registration started.
+I1101 13:05:12.467487 1859252224 Export.cpp:83] Video Toolbox encoding support status:
+	Hardware: H264, HEVC, ProRes
+	Software: H264, HEVC, ProRes
+I1101 13:05:12.467595 1859252224 PluginLoaderImpl.h:122] EncoderVT: resources registration done.
+I1101 13:05:12.472862 1859252224 PluginLoaderImpl.h:95] DecoderImageIO loading succeed, resources registration started.
+I1101 13:05:12.474644 1859252224 PluginLoaderImpl.h:122] DecoderImageIO: resources registration done.
+I1101 13:05:12.474833 1859252224 PluginLoader.cpp:108] [CORE] Plugin MuxerHEIF disabled
+I1101 13:05:12.474867 1859252224 PluginLoader.cpp:108] [CORE] Plugin MuxerNetworkAPI disabled
+I1101 13:05:12.474911 1859252224 PluginLoaderImpl.h:171] Plugins list to load: MuxerFF
+I1101 13:05:12.479810 1859252224 PluginLoaderImpl.h:95] MuxerFF loading succeed, resources registration started.
+I1101 13:05:12.479911 1859252224 PluginLoaderImpl.h:122] MuxerFF: resources registration done.
+I1101 13:05:12.480059 1859252224 PluginLoader.cpp:108] [CORE] Plugin ParserHEIF disabled
+I1101 13:05:12.480093 1859252224 PluginLoader.cpp:108] [CORE] Plugin ParserRAW disabled
+I1101 13:05:12.480137 1859252224 PluginLoader.cpp:108] [CORE] Plugin ParserCD disabled
+I1101 13:05:12.480217 1859252224 PluginLoaderImpl.h:171] Plugins list to load: ParserApple, ParserFF
+I1101 13:05:12.484884 1859252224 PluginLoaderImpl.h:95] ParserApple loading succeed, resources registration started.
+I1101 13:05:12.484998 1859252224 PluginLoaderImpl.h:122] ParserApple: resources registration done.
+I1101 13:05:12.495174 1859252224 PluginLoaderImpl.h:95] ParserFF loading succeed, resources registration started.
+I1101 13:05:12.495399 1859252224 PluginLoaderImpl.h:122] ParserFF: resources registration done.
+I1101 13:05:12.495710 1859252224 CoreManager.cpp:113] CPU Information:
+	Vendor id: Apple
+	Brand string: Apple M1 Pro
+	Microarchitecture: arm64e
+I1101 13:05:12.495838 1859252224 CoreManager.cpp:149] Device: MacBookPro18,1; GPU name: Apple M1 Pro, family = 'Apple7, Mac2, Metal3', architecture: applegpu_g13s
+I1101 13:05:12.517078 118132544 main.cpp:694] Core initialized
+I1101 13:05:12.578588 1854091264 CprSession.cpp:49] ConnectionInfo: {"APPCONNECT_TIME_T": "69513", "CONNECT_TIME_T": "38567", "EFFECTIVE_URL": "https://activations.movavika.ru/key/check_expiration?pname=applescreenrecorder24&hwid=LYCW7Y371X&key=012479-01579-02568-13478-01236-34569-12489&brand=movavika", "NAMELOOKUP_TIME_T": "26928", "OS_ERRNO": "0", "REDIRECT_COUNT": "0", "REDIRECT_TIME_T": "0", "RESPONSE_CODE": "200", "SPEED_DOWNLOAD_T": "336", "STARTTRANSFER_TIME_T": "294027", "TOTAL_TIME_T": "294094"}
+Http Status code: OK
+Network Error Code: 
+Network Error Message: 
+Http response data: {"expired":false,"expiration_time":-1,"error":"false","error_message":"","is_blocked":false,"adjustable_expired_at":false,"activate_before":null,"activation":"enabled"}
+Http Headers: {"Access-Control-Allow-Headers": "Access-Control-Allow-Origin, Content-Type, Content-Range, X-Requested-With, Sec-Fetch-Mode, authorization, X-Client", "Access-Control-Allow-Methods": "OPTIONS, GET, POST, PUT, DELETE", "Access-Control-Max-Age": "86400", "Alt-Svc": "h3=:443; ma=86400", "Cache-Control": "no-cache, private", "Connection": "keep-alive", "Content-Encoding": "br", "Content-Type": "application/json", "Cross-Origin-Resource-Policy": "same-site", "Date": "Sun, 01 Nov 2026 10:05:12 GMT", "Keep-Alive": "timeout=10", "Referrer-Policy": "strict-origin-when-cross-origin", "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload", "Transfer-Encoding": "chunked", "Vary": "Accept-Encoding", "X-Client-Timezone": "Europe/Moscow", "X-Cluster": "lsw-06", "X-Cluster-Country": "EU", "X-Content-Type-Options": "nosniff", "X-Continent-Code": "EU", "X-Country-Code": "RU", "X-Country-Name": "Russia", "X-protocol": "HTTP/1.1", "X-Real-IP": "85.31.116.23", "X-Request-Id": "d192622957ca218e56ec90eb450096ae"}
+Cookies: {}
+I1101 13:05:12.578914 1854091264 ActivationStorage_mac.cpp:180] Activation performed with subscription key = 0
+I1101 13:05:12.583477 1859252224 FndConfigDownloader.cpp:199] Requesting nags config from "https://mip2.movavika.ru/nagscreen/map?asrc=&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&webuid=73u2tp&build_name=UNUSED&app=applescreenrecorder&module=screencapture&app_ver=24-8-2&lang=ru_ru&partner=&istrial=0&utm_nooverride=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&bundle_name=supervideomac&brand=movavika&market=global&launchtype=Updated&activation_status=LIFETIME&activation_edition=LIFETIME&gift_id=0"
+I1101 13:05:12.585266 118132544 Manager.cpp:173] Reload nags
+I1101 13:05:12.586165 1861545984 ResourceDownloaderHttp.cpp:298] HTTP/HEAD download=https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=app_close&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489
+I1101 13:05:12.586508 118132544 Manager.cpp:234] Nags reloaded in 1ms
+I1101 13:05:12.586520 1862119424 ResourceDownloaderHttp.cpp:298] HTTP/HEAD download=https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489
+I1101 13:05:12.586745 118132544 GlobalHotkeyManager.cpp:62] void Movavi::SC::GlobalHotkeyManager::RegisterHotkey(const QString &, const QKeySequence &): Registered hotkey: captureStartStop seq: ⌥⌘2 enabled: 1
+I1101 13:05:12.586859 118132544 GlobalHotkeyManager.cpp:62] void Movavi::SC::GlobalHotkeyManager::RegisterHotkey(const QString &, const QKeySequence &): Registered hotkey: audioCaptureStartStop seq: ⌥⌘5 enabled: 1
+I1101 13:05:12.586966 118132544 GlobalHotkeyManager.cpp:62] void Movavi::SC::GlobalHotkeyManager::RegisterHotkey(const QString &, const QKeySequence &): Registered hotkey: webCameraCaptureStartStop seq: ⌥⌘6 enabled: 1
+I1101 13:05:12.587080 118132544 GlobalHotkeyManager.cpp:62] void Movavi::SC::GlobalHotkeyManager::RegisterHotkey(const QString &, const QKeySequence &): Registered hotkey: capturePauseResume seq: ⌥⌘1 enabled: 1
+I1101 13:05:12.587190 118132544 GlobalHotkeyManager.cpp:62] void Movavi::SC::GlobalHotkeyManager::RegisterHotkey(const QString &, const QKeySequence &): Registered hotkey: takeScreenshot seq: ⌥⌘3 enabled: 1
+I1101 13:05:12.587291 1865560064 AppleOglWorker.cpp:67] Starting OpenGL worker thread
+I1101 13:05:12.599054 1865560064 AppleOglContext.cpp:267] Core OpenGL Context: Profile = GL3_Core, Depth Size = 0, Color Size = 32, Alpha Size = 8, Stencil Size = 0, RendererID = 1027f00
+I1101 13:05:12.599176 1865560064 AppleOglContext.cpp:73] OpenGL driver info: version = "4.1 Metal - 88.1" renderer = "Apple M1 Pro" vendor = "Apple"
+I1101 13:05:12.599211 1865560064 AppleOglContext.cpp:76] OpenGL capability = 4
+I1101 13:05:12.602270 1865560064 AppleOglContext.cpp:83] Videocard supports max texture rectangle size: 16384 x 16384
+W1101 13:05:12.602496 118132544 QtLogHandler.cpp:52] undefined:0 QCommandLineParser: already having an option named "test-custom-locales"
+I1101 13:05:12.602612 118132544 PluginLoaderImpl.h:171] Plugins list to load: CaptureUtil, CaptureAVCHD, CaptureAVF, CaptureAudIO
+I1101 13:05:12.616816 118132544 PluginLoaderImpl.h:95] CaptureUtil loading succeed, resources registration started.
+I1101 13:05:12.616976 118132544 PluginLoaderImpl.h:122] CaptureUtil: resources registration done.
+I1101 13:05:12.617276 118132544 PluginLoaderImpl.h:50] ErrorDescription: Cannot load module '@executable_path/../Frameworks/libCaptureAVCHD.dylib', additional info: dlopen(@executable_path/../Frameworks/libCaptureAVCHD.dylib, 0x0002): tried: '/Applications/Movavika Screen Recorder.app/Contents/Frameworks/libCaptureAVCHD.dylib' (no such file)
+I1101 13:05:12.617317 118132544 PluginLoaderImpl.h:95] CaptureAVCHD loading failed 
+I1101 13:05:12.620365 1865560064 AppleOglWorker.cpp:94] OpenGL worker thread started
+I1101 13:05:12.622707 118132544 PluginLoaderImpl.h:95] CaptureAVF loading succeed, resources registration started.
+I1101 13:05:12.622781 118132544 PluginLoaderImpl.h:122] CaptureAVF: resources registration done.
+I1101 13:05:12.623010 118132544 PluginLoaderImpl.h:50] ErrorDescription: Cannot load module '@executable_path/../Frameworks/libCaptureAudIO.dylib', additional info: dlopen(@executable_path/../Frameworks/libCaptureAudIO.dylib, 0x0002): tried: '/Applications/Movavika Screen Recorder.app/Contents/Frameworks/libCaptureAudIO.dylib' (no such file)
+I1101 13:05:12.623056 118132544 PluginLoaderImpl.h:95] CaptureAudIO loading failed 
+W1101 13:05:12.670859 1862119424 ResourceDownloaderHttp.cpp:149] head request=https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489 failed with error=The requested URL returned error: 404
+I1101 13:05:12.671095 1862119424 WebQuickContent.cpp:222] Nag on major_update disabled (url: "https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489")
+I1101 13:05:12.671154 1862119424 FndWebContentDownloader.cpp:682] Nag download finished, code: cancelled, from: "https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=major_update&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489", in: 84 ms, tasks in queue: 1
+W1101 13:05:12.676442 1861545984 ResourceDownloaderHttp.cpp:149] head request=https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=app_close&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489 failed with error=The requested URL returned error: 404
+I1101 13:05:12.676682 1861545984 WebQuickContent.cpp:222] Nag on app_close disabled (url: "https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=app_close&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489")
+I1101 13:05:12.676837 1861545984 FndWebContentDownloader.cpp:682] Nag download finished, code: cancelled, from: "https://mip2.movavika.ru/get_nag.php?app=applescreenrecorder&module=screencapture&app_ver=24-8-2&partner=&app_mode=activated&lang=ru&app_action=app_close&huid=832949fb290bfffdbf5d3f167ad9262fb23a85d0&protocol=1&os=mac14-6-1&os_bits=64&platform=64&cpu_arch=arm64&excludeId=&include_id=&bundle_name=supervideomac&webuid=73u2tp&market=global&brand=movavika&gift_id=0&act_key=012479-01579-02568-13478-01236-34569-12489", in: 90 ms, tasks in queue: 0
+I1101 13:05:12.680586 118132544 LoggingHelper.cpp:83] void Movavi::SC::Util::LoggingHelper::Impl::LogProductInfo(): Product, name=Запись экрана для Mac, about=Мовавика Запись экрана для Mac 24.8.2
+I1101 13:05:12.680678 118132544 LoggingHelper.cpp:86] void Movavi::SC::Util::LoggingHelper::Impl::LogProductInfo(): Build, mac_app_store=0, steam_store=0
+I1101 13:05:12.680725 118132544 LoggingHelper.cpp:93] void Movavi::SC::Util::LoggingHelper::Impl::LogSystemInfo(): OS, name=macOS, bits=64, edition=, version=14.6.1
+I1101 13:05:12.680822 118132544 LoggingHelper.cpp:99] void Movavi::SC::Util::LoggingHelper::Impl::LogSystemInfo(): CPU, Apple M1 Pro
+I1101 13:05:12.680866 118132544 LoggingHelper.cpp:100] void Movavi::SC::Util::LoggingHelper::Impl::LogSystemInfo(): GPU, 
+I1101 13:05:12.681564 118132544 LoggingHelper.cpp:107] void Movavi::SC::Util::LoggingHelper::Impl::LogSystemInfo(): Mac model, MacBookPro18,1 
+I1101 13:05:12.681602 118132544 LoggingHelper.cpp:111] void Movavi::SC::Util::LoggingHelper::Impl::LogSystemInfo(): Translated, NO (Native)
+I1101 13:05:12.681636 118132544 LoggingHelper.cpp:119] void Movavi::SC::Util::LoggingHelper::Impl::LogScreens(): Screen , model=, manufacturer=, geometry=(0,0:1728x1117), availableGeometry=(0,38:1728x1079), depth=24, physicalDpi=127.5, logicalDpi=72, devicePixelRatio=2
+I1101 13:05:12.681694 118132544 LoggingHelper.cpp:146] void Movavi::SC::Util::LoggingHelper::Impl::LogCaptureDevices(): Capture Device, name=HD-камера FaceTime, id=47B4B64B-7067-4B9C-AD2B-AE273A71F4B5, type=Video, impl=AV_FOUNDATION_IMPL, priority=0
+I1101 13:05:12.681727 118132544 LoggingHelper.cpp:146] void Movavi::SC::Util::LoggingHelper::Impl::LogCaptureDevices(): Capture Device, name=Movavika Sound Grabber, id=Movavika Sound Grabber 3 (Device UID), type=Audio, impl=AV_FOUNDATION_IMPL, priority=0
+I1101 13:05:12.681763 118132544 LoggingHelper.cpp:146] void Movavi::SC::Util::LoggingHelper::Impl::LogCaptureDevices(): Capture Device, name=Микрофон MacBook Pro, id=BuiltInMicrophoneDevice, type=Audio, impl=AV_FOUNDATION_IMPL, priority=0
+I1101 13:05:12.681797 118132544 LoggingHelper.cpp:146] void Movavi::SC::Util::LoggingHelper::Impl::LogCaptureDevices(): Capture Device, name=ZoomAudioDevice, id=zoom.us.zoomaudiodevice.001, type=Audio, impl=AV_FOUNDATION_IMPL, priority=0
+I1101 13:05:12.682817 118132544 LoggingHelper.cpp:178] void Movavi::SC::Util::LoggingHelper::Impl::LogAudioDevices(): Audio Device, name=Микрофон MacBook Pro, id=81, uid=BuiltInMicrophoneDevice, flags=INPUT|CURRENT_INPUT
+I1101 13:05:12.682881 118132544 LoggingHelper.cpp:178] void Movavi::SC::Util::LoggingHelper::Impl::LogAudioDevices(): Audio Device, name=Динамики MacBook Pro, id=74, uid=BuiltInSpeakerDevice, flags=OUTPUT|CURRENT_OUTPUT
+I1101 13:05:12.682920 118132544 LoggingHelper.cpp:178] void Movavi::SC::Util::LoggingHelper::Impl::LogAudioDevices(): Audio Device, name=Movavika Sound Grabber, id=93, uid=Movavika Sound Grabber 3 (Device UID), flags=GRABBER|INPUT|OUTPUT|CURRENT_SYSTEM_OUTPUT
+I1101 13:05:12.682955 118132544 LoggingHelper.cpp:178] void Movavi::SC::Util::LoggingHelper::Impl::LogAudioDevices(): Audio Device, name=ZoomAudioDevice, id=86, uid=zoom.us.zoomaudiodevice.001, flags=INPUT|OUTPUT
+I1101 13:05:12.706872 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707015 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Apple Internal Keyboard / Trackpad, manufacturer=Apple Inc., transport=SPI
+I1101 13:05:12.707075 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=BTM, manufacturer=APPL, transport=SPMI
+I1101 13:05:12.707129 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707178 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Apple Internal Keyboard / Trackpad, manufacturer=Apple Inc., transport=SPI
+I1101 13:05:12.707228 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707281 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Apple Internal Keyboard / Trackpad, manufacturer=Apple Inc., transport=SPI
+I1101 13:05:12.707332 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Apple Internal Keyboard / Trackpad, manufacturer=Apple Inc., transport=SPI
+I1101 13:05:12.707387 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Headset, manufacturer=Apple, transport=Audio
+I1101 13:05:12.707440 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707491 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707556 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Apple Internal Keyboard / Trackpad, manufacturer=Apple Inc., transport=SPI
+I1101 13:05:12.707639 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707691 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=Keyboard Backlight, manufacturer=, transport=USB
+I1101 13:05:12.707741 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.707790 118132544 LoggingHelper.cpp:222] void Movavi::SC::Util::LoggingHelper::Impl::LogHidDevices(): HID Device, product=, manufacturer=Apple, transport=SPU
+I1101 13:05:12.724588 118132544 LoggingHelper.cpp:314] void Movavi::SC::Util::LoggingHelper::Impl::LogPrivacyStatus(): Privacy status, allowed=ACCESSIBILITY_KEYBOARD|ACCESSIBILITY_MOUSE|ACCESSIBILITY_SCREEN|MICROPHONE|SCREEN, denied=, notDetermined=CAMERA
+I1101 13:05:12.725526 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Kext, path=/Library/Extensions/HighPointIOP.kext, identifier=com.highpoint-tech.kext.HighPointIOP, version=4.4.5
+I1101 13:05:12.725919 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Kext, path=/Library/Extensions/HighPointRR.kext, identifier=com.highpoint-tech.kext.HighPointRR, version=4.22.1
+I1101 13:05:12.726416 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Kext, path=/Library/Extensions/SoftRAID.kext, identifier=com.softraid.driver.SoftRAID, version=6.0
+I1101 13:05:12.726621 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Audio Plug-in, path=/Library/Audio/Plug-Ins/HAL/ACE.driver, identifier=com.rogueamoeba.ACE.driver, version=11.9.0
+I1101 13:05:12.726735 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Audio Plug-in, path=/Library/Audio/Plug-Ins/HAL/SoundGrabber3.driver, identifier=com.movavika.soundgrabber3, version=3.1.0
+I1101 13:05:12.726830 118132544 LoggingHelper.cpp:359] void Movavi::SC::Util::LoggingHelper::Impl::LogBundlesInfo(const QString &, const std::string &): Audio Plug-in, path=/Library/Audio/Plug-Ins/HAL/ZoomAudioDevice.driver, identifier=zoom.us.ZoomAudioDevice, version=1.0
+W1101 13:05:12.728395 118132544 QtLogHandler.cpp:52] undefined:0 QCommandLineParser: already having an option named "test-custom-locales"
+I1101 13:05:12.747902 118132544 WebQuickContent.cpp:312] Could not find Main QML file for web nag: , mode = activated, action = major_update
+I1101 13:05:12.748167 118132544 WebQuickContent.cpp:312] Could not find Main QML file for web nag: , mode = activated, action = app_close
+I1101 13:05:12.740345 118132544 ACEClient.mm:113] Movavi::SC::Service::ACEClient::ACEClient(const std::shared_ptr<UI::ParentProvider> &): ACEGetInstalledVersion = 11.9.0
+I1101 13:05:12.748488 118132544 ACEClient.mm:114] Movavi::SC::Service::ACEClient::ACEClient(const std::shared_ptr<UI::ParentProvider> &): ACEGetInstallableVersion = 
+I1101 13:05:12.748574 118132544 ACEClient.mm:115] Movavi::SC::Service::ACEClient::ACEClient(const std::shared_ptr<UI::ParentProvider> &): ACEGetAuthorizationRequired = 1
+I1101 13:05:12.753028 118132544 Manager.cpp:968] Nag config ready
+I1101 13:05:12.748613 118132544 ACEClient.mm:116] Movavi::SC::Service::ACEClient::ACEClient(const std::shared_ptr<UI::ParentProvider> &): ACEGetInstalledVersionAuthorized = 0
+I1101 13:05:12.816263 118132544 Manager.cpp:494] Nag show requested, appAction=app_start
+I1101 13:05:12.837467 118132544 main.cpp:310] Performance log:
+----tid = 0x2070a8f40-----------------------------------------
+Process OS initialization        ttl:      972.982ms; cnt:       1; avg:      972.982ms; min:      972.982ms; max:      972.982ms
+Main start                       ttl:     1006.031ms; cnt:       1; avg:     1006.031ms; min:     1006.031ms; max:     1006.031ms
+    Create application           ttl:      108.016ms; cnt:       1; avg:      108.016ms; min:      108.016ms; max:      108.016ms
+    Init application             ttl:      269.771ms; cnt:       1; avg:      269.771ms; min:      269.771ms; max:      269.771ms
+    Launch                       ttl:      623.057ms; cnt:       1; avg:      623.057ms; min:      623.057ms; max:      623.057ms
+        Wait for IPC init        ttl:       13.074ms; cnt:       1; avg:       13.074ms; min:       13.074ms; max:       13.074ms
+        Wait for core init       ttl:      222.524ms; cnt:       1; avg:      222.524ms; min:      222.524ms; max:      222.524ms
+        OpenGL initialization    ttl:       15.158ms; cnt:       1; avg:       15.158ms; min:       15.158ms; max:       15.158ms
+        Create main window       ttl:        9.384ms; cnt:       1; avg:        9.384ms; min:        9.384ms; max:        9.384ms
+        Main window show         ttl:       36.545ms; cnt:       1; avg:       36.545ms; min:       36.545ms; max:       36.545ms
+----Summary------------------------------------------------
+Main start                       ttl:     1006.031ms; cnt:       1; avg:     1006.031ms; min:     1006.031ms; max:     1006.031ms
+Process OS initialization        ttl:      972.982ms; cnt:       1; avg:      972.982ms; min:      972.982ms; max:      972.982ms
+Launch                           ttl:      623.057ms; cnt:       1; avg:      623.057ms; min:      623.057ms; max:      623.057ms
+Init application                 ttl:      269.771ms; cnt:       1; avg:      269.771ms; min:      269.771ms; max:      269.771ms
+Wait for core init               ttl:      222.524ms; cnt:       1; avg:      222.524ms; min:      222.524ms; max:      222.524ms
+Create application               ttl:      108.016ms; cnt:       1; avg:      108.016ms; min:      108.016ms; max:      108.016ms
+Main window show                 ttl:       36.545ms; cnt:       1; avg:       36.545ms; min:       36.545ms; max:       36.545ms
+OpenGL initialization            ttl:       15.158ms; cnt:       1; avg:       15.158ms; min:       15.158ms; max:       15.158ms
+Wait for IPC init                ttl:       13.074ms; cnt:       1; avg:       13.074ms; min:       13.074ms; max:       13.074ms
+Create main window               ttl:        9.384ms; cnt:       1; avg:        9.384ms; min:        9.384ms; max:        9.384ms
+-----------------------------------------------------------
+I1101 13:05:12.955850 118132544 main.cpp:607] Enter to main application loop
+I1101 13:05:12.977916 118132544 Manager.cpp:173] Reload nags
+I1101 13:05:12.979508 118132544 Manager.cpp:234] Nags reloaded in 1ms
+I1101 13:06:21.269956 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnNewApplication {movavika_videoeditorplus_27.1.0_videoeditor;} ver = 0.0.0.0
+I1101 13:06:21.305719 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnLocaleChanged {ru_RU;} ver = 1.0.0.0
+I1101 13:06:27.812860 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoconverter_24.5.0_converter to movavika_screenrecorder_24.8.2_screencapture cmd = OnNewApplication {movavika_videoconverter_24.5.0_converter;} ver = 0.0.0.0
+I1101 13:06:27.829089 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnLocaleChanged {ru_RU;} ver = 1.0.0.0
+I1101 13:08:51.293638 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnActivationPerformed {movavika_suiteplatformmac_27.0.0_suiteplatform;{"ACTIVATION_CONTEXT":"{\"ACTIVATION_METHOD\":1,\"CONTEXT_DATA\":{\"CONTEXT_PLACE_TYPE\":\"mono\",\"LICENSE_KEY\":\"034568-04689-13459-34578-12579-12368-02459\"},\"CONTEXT_LICENSE_STATUS\":0,\"CONTEXT_LICENSE_TYPE\":0}","ACTIVATION_RESULT":"{\"ACTIVATION_ERROR\":0,\"LICENSE_STATUS\":0,\"LICENSE_TYPE\":1,\"RESULT_DATA\":{\"KEY_ACTIVATABLE_CODES\":\"applevideosuite27,applescreenrecorder24,applevideoeditorplus24,videoeditorplus27,applescreenrecorder24,applevideosuite24,suite24,videoconverter24,applevideoconverter24,videoconverter24,mac0,applescreenrecorder24,srecorder24,\",\"KEY_ACTIVATABLE_PRODUCT_NAMES\":\"Мовавика Супервидео,Мовавика Запись экрана,Мовавика Видео для Mac,Мовавика Видео,Мовавика Запись экрана для Mac,Tundra Video Suite Mac,Tundra Video Suite,Мовавика Конвертер,Tundra Video Converter Mac,Tundra Video Converter,Мовавика Супервидео для Mac,Tundra Screen Recorder Mac,Tundra Screen Recorder,\",\"KEY_ACTIVATABLE_TYPES\":\"app,app,app,app,app,app,app,app,app,app,app,app,app,\"}}","INFO_DATA":{}};} ver = 1.0.0.0
+I1101 13:08:52.163993 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoconverter_24.5.0_converter to movavika_screenrecorder_24.8.2_screencapture cmd = OnActivationPerformed {movavika_videoconverter_24.5.0_converter;{"ACTIVATION_CONTEXT":"{\"ACTIVATION_METHOD\":1,\"CONTEXT_DATA\":{\"CONTEXT_PLACE_TYPE\":\"mono\",\"LICENSE_KEY\":\"034568-04689-13459-34578-12579-12368-02459\"},\"CONTEXT_LICENSE_STATUS\":0,\"CONTEXT_LICENSE_TYPE\":0}","ACTIVATION_RESULT":"{\"ACTIVATION_ERROR\":0,\"LICENSE_STATUS\":0,\"LICENSE_TYPE\":2,\"RESULT_DATA\":{\"ACTIVATIONS_LEFT\":\"0\",\"ACTIVATION_EDITION\":\"\",\"ACTIVATION_KEY\":\"000001825113600d951b968bad7e5f9c7f4c3ec3369a68f\",\"FAMILY_SHARE_STATUS\":\"\",\"KEY_ACTIVATABLE_CODES\":\"videoeditorplus24,applevideoeditorplus24,videoconverter24,applevideoconverter24,suite24,applevideosuite24,srecorder24,applescreenrecorder24,srecorder24,applescreenrecorder24,applevideoconverter24,videoconverter24,applevideosuite24,suite24,applescreenrecorder24,applevideoeditorplus24,suite25,applevideosuite25,videoeditorplus25,applevideoeditorplus25,suite26,applevideosuite26,videoeditorplus26,applevideoeditorplus26,suite27,applevideosuite27,videoeditorplus27,applevideoeditorplus27,mac,\",\"KEY_ACTIVATABLE_PRODUCT_NAMES\":\"Мовавика Супервидео,Мовавика Видео 24,Мовавика Видео для Mac 24,Tundra Video Converter 24,Tundra Video Converter Mac 24,Tundra Video Suite 24,Tundra Video Suite Mac 24,Tundra Screen Recorder 24,Tundra Screen Recorder Mac 24,Мовавика Запись экрана 24,Мовавика Запись экрана 2024 для Mac,Мовавика Конвертер 24,Мовавика Конвертер 24,Мовавика Супервидео,Мовавика Супервидео,Мовавика Запись экрана для Mac,Мовавика Видео для Mac,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео для Mac,Мовавика Супервидео для Мас,Мовавика Супервидео,\",\"KEY_ACTIVATABLE_TYPES\":\"app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,\",\"SUBSCRIPTION_EXPIRATION_DURATION\":\"1825113600811998\",\"SUBSCRIPTION_EXPIRATION_DURATION_LIMIT\":\"31585869\"}}","INFO_DATA":{}};} ver = 1.0.0.0
+I1101 13:08:52.360944 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnActivationPerformed {movavika_videoeditorplus_27.1.0_videoeditor;{"ACTIVATION_CONTEXT":"{\"ACTIVATION_METHOD\":1,\"CONTEXT_DATA\":{\"CONTEXT_PLACE_TYPE\":\"mono\",\"LICENSE_KEY\":\"034568-04689-13459-34578-12579-12368-02459\"},\"CONTEXT_LICENSE_STATUS\":0,\"CONTEXT_LICENSE_TYPE\":0}","ACTIVATION_RESULT":"{\"ACTIVATION_ERROR\":0,\"LICENSE_STATUS\":0,\"LICENSE_TYPE\":2,\"RESULT_DATA\":{\"ACTIVATIONS_LEFT\":\"0\",\"ACTIVATION_EDITION\":\"\",\"ACTIVATION_KEY\":\"0000018251136004d59f726e40279374fcc6a17b65d8683\",\"FAMILY_SHARE_STATUS\":\"\",\"KEY_ACTIVATABLE_CODES\":\"videoeditorplus24,applevideoeditorplus24,videoconverter24,applevideoconverter24,suite24,applevideosuite24,srecorder24,applescreenrecorder24,srecorder24,applescreenrecorder24,applevideoconverter24,videoconverter24,applevideosuite24,suite24,applescreenrecorder24,applevideoeditorplus24,suite25,applevideosuite25,videoeditorplus25,applevideoeditorplus25,suite26,applevideosuite26,videoeditorplus26,applevideoeditorplus26,suite27,applevideosuite27,videoeditorplus27,applevideoeditorplus27,mac,\",\"KEY_ACTIVATABLE_PRODUCT_NAMES\":\"Мовавика Супервидео,Мовавика Видео 24,Мовавика Видео для Mac 24,Tundra Video Converter 24,Tundra Video Converter Mac 24,Tundra Video Suite 24,Tundra Video Suite Mac 24,Tundra Screen Recorder 24,Tundra Screen Recorder Mac 24,Мовавика Запись экрана 24,Мовавика Запись экрана 2024 для Mac,Мовавика Конвертер 24,Мовавика Конвертер 24,Мовавика Супервидео,Мовавика Супервидео,Мовавика Запись экрана для Mac,Мовавика Видео для Mac,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео для Mac,Мовавика Супервидео для Мас,Мовавика Супервидео,\",\"KEY_ACTIVATABLE_TYPES\":\"app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,\",\"SUBSCRIPTION_EXPIRATION_DURATION\":\"1825113600799923\",\"SUBSCRIPTION_EXPIRATION_DURATION_LIMIT\":\"31585869\"}}","INFO_DATA":{}};} ver = 1.0.0.0
+I1101 13:08:52.362797 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnActivationPerformed {movavika_videoeditorplus_27.1.0_videoeditor;{"ACTIVATION_CONTEXT":"{\"ACTIVATION_METHOD\":1,\"CONTEXT_DATA\":{\"CONTEXT_PLACE_TYPE\":\"mono\",\"LICENSE_KEY\":\"034568-04689-13459-34578-12579-12368-02459\"},\"CONTEXT_LICENSE_STATUS\":0,\"CONTEXT_LICENSE_TYPE\":0}","ACTIVATION_RESULT":"{\"ACTIVATION_ERROR\":0,\"LICENSE_STATUS\":0,\"LICENSE_TYPE\":2,\"RESULT_DATA\":{\"ACTIVATIONS_LEFT\":\"0\",\"ACTIVATION_EDITION\":\"\",\"ACTIVATION_KEY\":\"0000018251136004d59f726e40279374fcc6a17b65d8683\",\"FAMILY_SHARE_STATUS\":\"\",\"KEY_ACTIVATABLE_CODES\":\"videoeditorplus24,applevideoeditorplus24,videoconverter24,applevideoconverter24,suite24,applevideosuite24,srecorder24,applescreenrecorder24,srecorder24,applescreenrecorder24,applevideoconverter24,videoconverter24,applevideosuite24,suite24,applescreenrecorder24,applevideoeditorplus24,suite25,applevideosuite25,videoeditorplus25,applevideoeditorplus25,suite26,applevideosuite26,videoeditorplus26,applevideoeditorplus26,suite27,applevideosuite27,videoeditorplus27,applevideoeditorplus27,mac,\",\"KEY_ACTIVATABLE_PRODUCT_NAMES\":\"Мовавика Супервидео,Мовавика Видео 24,Мовавика Видео для Mac 24,Tundra Video Converter 24,Tundra Video Converter Mac 24,Tundra Video Suite 24,Tundra Video Suite Mac 24,Tundra Screen Recorder 24,Tundra Screen Recorder Mac 24,Мовавика Запись экрана 24,Мовавика Запись экрана 2024 для Mac,Мовавика Конвертер 24,Мовавика Конвертер 24,Мовавика Супервидео,Мовавика Супервидео,Мовавика Запись экрана для Mac,Мовавика Видео для Mac,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео,Мовавика Супервидео,Мовавика Видео,Мовавика Видео,Мовавика Супервидео для Mac,Мовавика Супервидео для Мас,Мовавика Супервидео,\",\"KEY_ACTIVATABLE_TYPES\":\"app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,app,\",\"SUBSCRIPTION_EXPIRATION_DURATION\":\"1825113600799923\",\"SUBSCRIPTION_EXPIRATION_DURATION_LIMIT\":\"31585869\"}}","INFO_DATA":{}};} ver = 1.0.0.0
+I1101 13:10:20.764420 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoconverter_24.5.0_converter to movavika_screenrecorder_24.8.2_screencapture cmd = OnApplicationQuit {movavika_videoconverter_24.5.0_converter;} ver = 0.0.0.0
+I1101 13:13:05.541332 118132544 Application.cpp:71] User action: type=MouseButtonPress, objectName=closeButton, className=QPushButton, parentObjectName=smallButtonsFrame, parentClassName=MFrame, button: LeftButton
+I1101 13:13:06.411875 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnApplicationQuit {movavika_videoeditorplus_27.1.0_videoeditor;} ver = 0.0.0.0
+I1101 13:13:23.750381 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnNewApplication {movavika_videoeditorplus_27.1.0_videoeditor;} ver = 0.0.0.0
+I1101 13:13:23.776837 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnLocaleChanged {ru_RU;} ver = 1.0.0.0
+I1101 13:13:40.280581 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoconverter_24.5.0_converter to movavika_screenrecorder_24.8.2_screencapture cmd = OnNewApplication {movavika_videoconverter_24.5.0_converter;} ver = 0.0.0.0
+I1101 13:13:40.320712 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_suiteplatformmac_27.0.0_suiteplatform to movavika_screenrecorder_24.8.2_screencapture cmd = OnLocaleChanged {ru_RU;} ver = 1.0.0.0
+I1101 18:03:29.373394 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoconverter_24.5.0_converter to movavika_screenrecorder_24.8.2_screencapture cmd = OnApplicationQuit {movavika_videoconverter_24.5.0_converter;} ver = 0.0.0.0
+I1101 18:03:38.490845 1858105344 PeerWorker.cpp:184] IPC Receive: from movavika_videoeditorplus_27.1.0_videoeditor to movavika_screenrecorder_24.8.2_screencapture cmd = OnApplicationQuit {movavika_videoeditorplus_27.1.0_videoeditor;} ver = 0.0.0.0
+I1101 18:26:28.052398 1854091264 CprSession.cpp:49] ConnectionInfo: {"APPCONNECT_TIME_T": "0", "CONNECT_TIME_T": "0", "EFFECTIVE_URL": "https://activations.movavika.ru/key/check_expiration?pname=applescreenrecorder24&hwid=LYCW7Y371X&key=012479-01579-02568-13478-01236-34569-12489&brand=movavika", "NAMELOOKUP_TIME_T": "269321", "OS_ERRNO": "54", "REDIRECT_COUNT": "0", "REDIRECT_TIME_T": "0", "RESPONSE_CODE": "0", "SPEED_DOWNLOAD_T": "0", "STARTTRANSFER_TIME_T": "0", "TOTAL_TIME_T": "30001474"}
+Http Status code: 
+Network Error Code: OPERATION_TIMEDOUT
+Network Error Message: Send failure: Broken pipe
