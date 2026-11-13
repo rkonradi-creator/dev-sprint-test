@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://jsonplaceholder.typicode.com/posts/99999
+method: GET
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: '{"title":"naruto","body":"Nothing in the POST body","userId":"100"}'
+order: 1000

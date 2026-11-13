@@ -1,0 +1,40 @@
+$kind: http-request
+url: https://jsonplaceholder.typicode.com/posts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"Мой первый POST в Postman\",\r
+
+    \    \"body\": \"Тестирую отправку JSON\",\r
+
+    \    \"userId\": 7\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: "// Проверка 1: Убеждаемся, что статус ответа именно 201\r
+
+      pm.test(\"Status code is 201 Created\", function () {\r
+
+      \    pm.response.to.have.status(201);\r
+
+      });\r
+
+      \r
+
+      // Проверка 2: Проверяем, что сервер вернул правильный userId и сгенерировал id\r
+
+      pm.test(\"Response contains valid userId and new id\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData.userId).to.eql(7);\r
+
+      \    pm.expect(jsonData.id).to.eql(101);\r
+
+      });"
+    language: text/javascript
+examples: .resources/Create Post.resources/examples
+order: 2000

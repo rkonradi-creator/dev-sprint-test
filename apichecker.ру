@@ -1,0 +1,32 @@
+import requests
+
+BASE_URL = "https://jsonplaceholder.typicode.com"
+
+print("=== 1. Проверяем цикл GET-запросов (пользователи с 1 по 843) ===")
+for user_id in [1, 2, 3]:
+    response = requests.get(f"{BASE_URL}/users/{user_id}")
+    
+    # Автоматические проверки (контролер ОТК)
+    assert response.status_code == 200, f"Ошибка! Для ID {user_id} пришел код {response.status_code}"
+    
+    data = response.json()
+    assert "email" in data, f"У пользователя {user_id} отсутствует поле email!"
+    
+    print(f"[PASS] Пользователь #{user_id} ({data['name']}) успешно проверен.")
+
+
+print("\n=== 2. Проверяем создание пользователя (POST) ===")
+new_user = {
+    "name": "Roma",
+    "username": "konradi",
+    "email": "romakonradi@gmail.com"
+}
+
+response_post = requests.post(f"{BASE_URL}/users", json=new_user)
+
+assert response_post.status_code == 201, f"Ожидали 201, а получили {response_post.status_code}"
+created_data = response_post.json()
+assert created_data["name"] == "Roma", "Имя в ответе не совпадает с отправленным!"
+assert created_data["id"] == 11, f"Ожидали ID 11, а получили {created_data['id']}"
+
+print("[PASS] Создание пользователя прошло все проверки!")
